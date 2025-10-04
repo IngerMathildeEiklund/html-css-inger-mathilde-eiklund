@@ -1,0 +1,23 @@
+p,
+a {
+  color: white;
+}
+.footer-logo-image {
+  width: 100px;
+}
+
+.footer-container {
+  background-color: rgb(25, 59, 59);
+}
+
+.about-us-info-container {
+  background-color: rgb(25, 59, 59);
+}
+
+.klarna-svg {
+  width: 15px;
+}
+
+.footer-some-icons i {
+  color: white;
+}
