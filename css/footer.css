@@ -1,23 +1,63 @@
-p,
-a {
-  color: white;
-}
-.footer-logo-image {
-  width: 100px;
-}
-
-.footer-container {
-  background-color: rgb(25, 59, 59);
-}
-
-.about-us-info-container {
-  background-color: rgb(25, 59, 59);
-}
-
 .klarna-svg {
-  width: 15px;
+  height: 20px;
 }
 
-.footer-some-icons i {
+.footer-links {
+  text-decoration: none;
+}
+
+.footer-links,
+p {
+  color: rgb(188, 188, 188);
+}
+
+i {
+  font-size: 1.7rem;
+}
+
+.copyright-footer-text {
+  font-size: 1rem;
+}
+
+.footer-logo {
+  width: 140px;
+  align-self: center;
+}
+
+.container-blue {
+  background-color: rgb(25, 59, 59);
+}
+
+.container-whitespace {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.pay-icons {
   color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.some-icons {
+  color: rgb(25, 59, 59);
+  display: flex;
+  justify-content: end;
+  vertical-align: bottom;
+}
+
+#copyright-text {
+  font-size: 0.7rem;
+}
+
+.about-us-info,
+.contact-us-info {
+  padding: 25px;
+}
+
+#copyright-text {
+  align-self: center;
+  margin-top: 2rem;
 }
