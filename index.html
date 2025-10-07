@@ -25,6 +25,7 @@
     <link href="/css/global.css" rel="stylesheet">
     <link href="/css/header.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
+    <link href="/css/body.css" rel="stylesheet">
 
      
 </head>
@@ -34,52 +35,102 @@
         <div class="header">
             <i class="fa-regular fa-user"></i>
             <img class="rainy-days-logo" src="images/RainyDays_Logo.png" alt="Rainy Days logo">
+            <input class="searchbar-desktop" type="text" placeholder="Search">
             <i class="fa-solid fa-bag-shopping"></i>
         </div>
 
         <div class="search-bar-div">
             <input class="searchbar" type="text" placeholder="Search">
+
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
-        <nav>
+        <nav class="nav-container">
             <a class="home-page" href="index.html">Home</a>
             <a class="mens-page" href="mens.html">Mens</a>
             <a class="womens-page" href="womens.html">Womens</a>
         </nav>
     </header>
 
-       
+    <h1> New arrivals</h1>
+    <section class="new-arrivals">
+
+
+        <div class="card">
+            <img src="images/SCOTTmain.png" alt="photo of Scott hardshell jacket">
+            <div class="card-info">
+                <h3> SCOTT</h3>
+                <p> Hardshell superior</p>
+                <p> 100,99 €</p>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/FLEECE.png" alt="photo of Scott hardshell jacket">
+            <div class="card-info">
+                <h3> PATAGONIA</h3>
+                <p> Supersoft fleece</p>
+                <p> 50,99 €</p>
+            </div>
+        </div>
+
+
+
+        <div class="card card3">
+            <img src="images/ZOOMRED.png" alt="photo of Scott hardshell jacket">
+            <div class="card-info">
+                <h3> ZOOM</h3>
+                <p> Insulation plus</p>
+                <p> 89,99 €</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
 
 
     <footer>
         <div class="container-blue">
-            <div class="contact-us-info">
-                <p> Contact us:</p>
-                <p> Contact@rainydays.com </p>
-                <p> Phone: 01632 960000</p>
-            </div>
-            <div class="about-us-info">
-                <a class="footer-links" href="aboutus.html">About us <br> </a>
-                <a class="footer-links" href="termsofsales.html">Terms of sales <br> </a>
-                <a class="footer-links" href="termsofuse.html">Terms of use <br> </a>
-                <a class="footer-links" href="wanttoworkwithus.html">Want to work with us?</a>
-            </div>
-            <div class="pay-icons">
-                <i class="fa-brands fa-cc-paypal"></i>
-                <i class="fa-brands fa-google-pay"></i>
-                <img class="klarna-svg" src="svg/klarna-svgrepo-com.png">
-            </div>
-            <div class="container-whitespace">
-
-                <div class="some-icons">
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-square-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
+            <div class="container-text">
+                <div class="contact-us-info">
+                    <p> Contact us:</p>
+                    <p> Contact@rainydays.com </p>
+                    <p> Phone: 01632 960000</p>
                 </div>
-                <img class="footer-logo" src="/images/RainyDays_Logo.png">
-                <p id="copyright-text">Copyright &copy; 2020 Rainydays, inc. All rights reserved.</p>
+                <ul class="about-us-info">
+                    <li> <a class="footer-links" href="aboutus.html">About us </a></li>
+                    <li> <a class="footer-links" href="termsofsales.html">Terms of sales </a></li>
+                    <li> <a class="footer-links" href="termsofuse.html">Terms of use </a></li>
+                    <li> <a class="footer-links" href="wanttoworkwithus.html">Want to work with us?</a></li>
+                </ul>
             </div>
+            <div class="pay-container">
+                <div class="pay-icons">
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-brands fa-google-pay"></i>
+                    <img class="klarna-svg" src="svg/klarna-svgrepo-com.png">
+                </div>
+            </div>
+        </div>
+        <div class="container-whitespace">
+
+            <div class="some-icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <img class="footer-logo" src="/images/RainyDays_Logo.png">
+            <p id="copyright-text">Copyright &copy; 2020 Rainydays, inc. All rights reserved.</p>
+        </div>
+
     </footer>
 </body>
 

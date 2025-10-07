@@ -35,8 +35,45 @@ nav {
   color: rgb(255, 255, 255);
 }
 
+.searchbar-desktop {
+  display: none;
+}
+
+.nav-container {
+  background-color: rgb(255, 255, 255);
+}
+
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
+  .searchbar-desktop {
+    display: block;
+  }
+  .rainy-days-logo {
+    order: 1;
+  }
+  .searchbar-desktop {
+    order: 2;
+  }
+  .fa-user {
+    order: 3;
+  }
+  .fa-bag-shopping {
+    order: 4;
+  }
+  .search-bar-div {
+    display: none;
+  }
+  .searchbar {
+    display: none;
+  }
+  .nav-container {
+    background-color: rgb(25, 59, 59);
+  }
+  .home-page,
+  .mens-page,
+  .womens-page {
+    color: rgb(190, 190, 190);
+  }
 }
 
 /* ............ Desktops ................*/
