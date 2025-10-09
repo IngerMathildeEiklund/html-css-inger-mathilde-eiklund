@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline-block;
+  width: 100%;
+  margin: 10px;
+  gap: 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+  .grid {
+    margin-inline: 15rem;
+  }
+}

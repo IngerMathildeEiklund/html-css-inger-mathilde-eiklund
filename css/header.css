@@ -1,9 +1,6 @@
 .rainy-days-logo {
   width: 140px;
 }
-.search-bar-div {
-  background-color: rgb(25, 59, 59);
-}
 
 .header {
   display: flex;
@@ -29,10 +26,16 @@ nav {
   justify-content: center;
   align-items: center;
   padding-block: 0.2rem;
+  background-color: rgb(25, 59, 59);
 }
-
+.searchbar {
+  width: 12rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+}
 .fa-magnifying-glass {
   color: rgb(255, 255, 255);
+  font-size: 1rem;
 }
 
 .searchbar-desktop {
@@ -42,7 +45,9 @@ nav {
 .nav-container {
   background-color: rgb(255, 255, 255);
 }
-
+.fa-magnifying-glass-desktop {
+  display: none;
+}
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .searchbar-desktop {
@@ -68,6 +73,8 @@ nav {
   }
   .nav-container {
     background-color: rgb(25, 59, 59);
+    padding-inline: 3rem;
+    padding-block: 0.6rem;
   }
   .home-page,
   .mens-page,

@@ -23,3 +23,10 @@ a:hover {
 li {
   list-style-type: none;
 }
+
+h3,
+h1,
+h2 {
+  font-family: "Open sans";
+  color: rgb(91, 91, 91);
+}
