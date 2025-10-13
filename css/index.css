@@ -87,7 +87,7 @@ h2 {
     display: flex;
     justify-self: center;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1025px) {

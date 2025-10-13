@@ -26,7 +26,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding-block: 0.2rem;
-  background-color: rgb(25, 59, 59);
+  background-color: var(--primary-color);
 }
 .searchbar {
   width: 12rem;
@@ -72,7 +72,7 @@ nav {
     display: none;
   }
   .nav-container {
-    background-color: rgb(25, 59, 59);
+    background-color: var(--primary-color);
     padding-inline: 3rem;
     padding-block: 0.6rem;
   }
@@ -85,4 +85,6 @@ nav {
 
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
-}
+
+  }
+
