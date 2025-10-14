@@ -1,0 +1,49 @@
+.content-container{
+    border: 1px solid red;
+    display:flex;
+    flex-direction: column;
+}
+.anything-else-container{
+    border: 1px solid red;
+    order:1;
+    
+}
+.cart-container{
+    border: 1px solid red;
+    order:2;
+}
+.anything-else-text-container{
+    border: 1px solid red;
+}
+.card-container {
+    border: 1px solid red;
+    flex-direction: column;
+}
+.your-cart-text-container{
+    border: 1px solid red;
+}
+.button-container{
+    border: 1px solid red;
+}
+.card-container{
+    display:flex;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-container img{
+}
+.image-container{
+    border: 1px solid red;
+}
+.product-name-container{
+    border: 1px solid red;
+}
+.total-price-container{
+    display: inline-block;
+    border: 1px solid red;
+}
+.checkout-button-container{
+    border: 1px solid red;
+}
