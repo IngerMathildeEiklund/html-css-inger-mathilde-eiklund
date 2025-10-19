@@ -48,3 +48,9 @@ h2 {
   color: var(--main-text-color);
   font-size: 1.2;
 }
+
+input:focus {
+  border-style: solid;
+  border-color: var(--main-text-color);
+  outline: none;
+}

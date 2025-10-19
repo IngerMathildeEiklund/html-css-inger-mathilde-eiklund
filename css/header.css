@@ -38,16 +38,22 @@ nav {
   font-size: 1rem;
 }
 
-.searchbar-desktop {
+.searchbar-container  {
   display: none;
+  /* border: 1px solid red */
+  
 }
+
+.searchbar-container .-magnifying-glass-desktop {
+ background-color: var(--primary-color);
+}
+
 
 .nav-container {
   background-color: rgb(255, 255, 255);
 }
-.fa-magnifying-glass-desktop {
-  display: none;
-}
+
+
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .searchbar-desktop {
@@ -56,7 +62,7 @@ nav {
   .rainy-days-logo {
     order: 1;
   }
-  .searchbar-desktop {
+  .searchbar-container {
     order: 2;
   }
   .fa-user {
@@ -81,10 +87,27 @@ nav {
   .womens-page {
     color: rgb(190, 190, 190);
   }
-}
+  .searchbar-container {
+    display: block;
+  }
 
-/* ............ Desktops ................*/
-@media (min-width: 1025px) {
+
+  .searchbar-container {
+    position: relative;
+  }
+  .magnifying-glass-desktop {
+    position: absolute;
+    right: 0;
+    top:0;
 
   }
+  .searchbar-desktop {
+    padding-inline: 2rem;
+    padding-block: 0.3rem;
+    border-style: solid;
+    border-radius:0.5rem;
+  }
+}
+
+
 

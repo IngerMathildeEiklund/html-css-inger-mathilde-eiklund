@@ -8,6 +8,10 @@
   margin: 10px;
   gap: 20px;
 }
+.card-info {
+  margin-block: 2rem;
+  margin-inline: 1rem;
+}
 .card img {
   /* border: 1px solid red; */
   width: 100%;
