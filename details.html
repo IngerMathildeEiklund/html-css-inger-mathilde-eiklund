@@ -36,14 +36,17 @@
     <link href="/css/scottproductpage.css" rel="stylesheet" />
     <link href="/css/cart.css" rel="stylesheet" />
     <link href="/css/details.css" rel="stylesheet" />
+    <link href="/css/confirmation.css" rel="stylesheet" />
 
      
   </head>
   <body>
-    <main>
+    <main class="details-main">
       <div class="details-ordersummary-content">
         <section class="details-sections">
-          <h2>Details</h2>
+          <div class="details-text-container">
+            <h2>Details</h2>
+          </div>
           <label for="firstname" class="sr-only">First name</label>
           <input
             class="inputfield-details"
@@ -105,10 +108,10 @@
             aria-required="true"
           />
         </section>
-
         <section class="ordersummary-section">
-          <h2>Order summary</h2>
-
+          <div class="ordersummary-text-container">
+            <h2>Order summary</h2>
+          </div>
           <div class="image-text-container">
             <div class="ordersummary-image-container">
               <img src="images/SCOTTmain.png" alt="photo of scott jacket" />
@@ -145,11 +148,28 @@
             <p>Total</p>
             <h3>125,99 £</h3>
           </div>
+          <hr />
         </section>
       </div>
-      <section class="payment-options-container">
+
+      <section class="expresscheckout-container">
         <h3>Express checkout</h3>
-        <h3>Order total: 125,99 £</h3>
+        <div class="paymentoptions-container">
+          <img src="svg/paypal-svgrepo-com.svg" alt="icon of paypal payment" />
+          <img
+            src="svg/klarnapink-svgrepo-com.svg"
+            alt="icon of klarna payment"
+          />
+          <img
+            src="svg/google-pay-svgrepo-com.svg"
+            alt="icon of googlepay
+          payment"
+          />
+        </div>
+        <h2>Order total: 125,99 £</h2>
+        <div>
+          <button class="button pay-order-button">Pay order</button>
+        </div>
       </section>
     </main>
   </body>

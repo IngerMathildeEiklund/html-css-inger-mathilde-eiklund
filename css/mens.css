@@ -1,34 +1,27 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  gap: 1rem;
+
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  display: inline-block;
-  width: 100%;
-  gap: 20px;
-}
-.card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 2rem;
-}
-/* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
+    gap:3rem;
+  }
+.products-main {
+  margin-inline: 3rem;
+}
+
+}
+@media (min-width: 1025px) {
+.products-main {
+  margin-inline: 20rem;
+}
+ .grid {
+    gap:10rem;
   }
 }
 
-/* ............ Desktops ................*/
-@media (min-width: 1025px) {
-  .grid {
-    margin-inline: 15rem;
-  }
-}
+

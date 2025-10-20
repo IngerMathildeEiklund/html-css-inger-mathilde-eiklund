@@ -54,3 +54,12 @@ input:focus {
   border-color: var(--main-text-color);
   outline: none;
 }
+
+@media (min-width: 768px) {
+  h1,h2,h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}

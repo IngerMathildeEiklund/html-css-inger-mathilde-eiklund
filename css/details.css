@@ -1,5 +1,10 @@
-input:focus {
-  outline:2px var(--)
+.details-main{
+margin-inline:3rem;
+}
+
+
+.inputfield-details:focus {
+  outline:2px var(--tertiary-color)
 }
 .sr-only {
   position:absolute;
@@ -15,8 +20,8 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  gap: 3rem;
-  border: 1px solid red;
+  gap: 1rem;
+  /* border: 1px solid red; */
 }
 .details-sections {
   display: flex;
@@ -35,6 +40,9 @@ input:focus {
   width:20rem;
   font-size: 1rem;
   box-sizing: border-box;
+  /* border: 3px var(--main-text-color); */
+  border-color: var(--main-text-color);
+  box-shadow: none;
 }
 .ordersummary-image-container img {
   width: 100%;
@@ -60,10 +68,32 @@ input:focus {
   flex-direction: row;
   justify-content: space-between;
 }
-.payment-options-container {
+.expresscheckout-container {
   order:3;
-  border:1px solid red;
+  /* border:1px solid red; */
+  justify-items: center;
+  align-items: center;
 }
+.paymentoptions-container {
+  display:flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+}
+.paymentoptions-container img {
+width: 6rem;
+
+}
+.shipping-container, .total-container {
+  margin-block: 1rem;
+}
+.details-text-container, .ordersummary-text-container {
+  margin-block: 1rem;
+}
+.details-sections {
+  margin-block: 1rem;
+}
+
 
 
 
@@ -82,5 +112,11 @@ input:focus {
 .payment-options-container {
   flex-direction: row;
   flex-basis: 100%;
+}
+.details-text-container, .ordersummary-text-container {
+  margin-block: 2rem;
+}
+.details-ordersummary-content {
+  gap: 6rem;
 }
 }

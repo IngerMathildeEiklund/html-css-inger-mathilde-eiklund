@@ -1,9 +1,8 @@
-main {
-    margin-inline: 1rem;
-}
+
 .content-container{
     display:flex;
     flex-direction: column;
+    margin-inline:3rem;
 }
 
 .anything-else-container{
@@ -84,9 +83,7 @@ main {
 @media (min-width: 768px)  {
 
 
-    main {
-        padding-inline: 10rem;
-    }
+    
     /* --------- anything else section --------- */
     .content-container{
         display: flex;
