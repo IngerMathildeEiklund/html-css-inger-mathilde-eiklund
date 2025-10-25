@@ -9,6 +9,10 @@
   padding-inline: 2rem;
   padding-block: 1rem;
 }
+.searchbar-desktop:focus {
+  outline: 3px solid var(--inputfield-focus-color);
+  outline-offset: 2px;
+}
 
 .header i {
   font-size: 1.2rem;
@@ -19,7 +23,13 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-block:0.5rem;
 }
+.home-page,
+  .mens-page,
+  .womens-page {
+    color: var(--main-text-color);
+  }
 
 .search-bar-div {
   display: flex;
@@ -32,6 +42,7 @@ nav {
   width: 12rem;
   border-radius: 0.5rem;
   border-style: solid;
+  padding-block: 0.2rem;
 }
 .fa-magnifying-glass {
   color: rgb(255, 255, 255);
@@ -53,8 +64,6 @@ nav {
   background-color: rgb(255, 255, 255);
 }
 
-
-/* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .searchbar-desktop {
     display: block;
@@ -82,11 +91,7 @@ nav {
     padding-inline: 3rem;
     padding-block: 0.6rem;
   }
-  .home-page,
-  .mens-page,
-  .womens-page {
-    color: rgb(190, 190, 190);
-  }
+  
   .searchbar-container {
     display: block;
   }
@@ -97,16 +102,45 @@ nav {
   }
   .magnifying-glass-desktop {
     position: absolute;
-    right: 0;
-    top:0;
+    right: 3px;
+    top:6px;
 
   }
   .searchbar-desktop {
-    padding-inline: 2rem;
-    padding-block: 0.3rem;
+    padding-inline: 5rem;
+    padding-block: 0.5rem;
     border-style: solid;
     border-radius:0.5rem;
+    font-size: 1rem;
   }
+  .header { 
+    margin-inline: 6rem;
+  }
+.header i {
+  font-size: 1.5rem;
+  color: rgb(68, 68, 68);
+}
+.nav-container a {
+  color:var(--nav-desktop-text-color);
+}
+.nav-container a:focus, a:hover {
+  color: var(--nav-desktop-text-color-focus-hover);
+  text-decoration: underline;
+}
+
+  
+}
+@media (min-width: 1025px) {
+
+.nav-container {
+  padding-inline:25rem;
+  font-size: 10rem;
+}
+.nav-container a {
+  font-size: 1.2rem;
+}
+
+
 }
 
 

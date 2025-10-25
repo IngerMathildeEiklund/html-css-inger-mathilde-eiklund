@@ -5,7 +5,6 @@
 }
 :root {
   --primary-color: #113340; 
-  --nav-inactive-color: #D2D2D2;
   --nav-active-color: #FFFFFF;
   --main-text-color: #5C5C5C;
   --secondary-color: #FF8B38;
@@ -14,6 +13,11 @@
   --on-hover-size-button-color: #296C86;
   --on-hover-secondary-button-color: #FFAF75;
   --on-hover-tertiary-button-color: #C0FA8B;
+  --inputfield-focus-color: #0E7490; 
+  --nav-desktop-text-color: #d2d2d2;
+  --nav-desktop-text-color-focus-hover: #fffff4;
+
+
 
 }
 
@@ -27,18 +31,12 @@ a {
   text-decoration: none;
   font-family: "Open sans";
   font-size: 1rem;
-  color: var(--main-text-color);
+}
 
-}
-a:hover {
-  text-decoration: underline;
-  --button-text-color: #212121;
-  color: var(--button-text-color);
-  
-  
-}
+
 li {
   list-style-type: none;
+  color: solid white;
 }
 
 h3,
@@ -53,6 +51,15 @@ input:focus {
   border-style: solid;
   border-color: var(--main-text-color);
   outline: none;
+}
+.coming-soon-container {
+  display:flex;
+  flex-direction: column;
+align-self: center;
+}
+.return-to-homepage a:hover{
+text-decoration: underline;
+color:#0E7490
 }
 
 @media (min-width: 768px) {

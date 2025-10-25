@@ -4,7 +4,8 @@ margin-inline:3rem;
 
 
 .inputfield-details:focus {
-  outline:2px var(--tertiary-color)
+  outline: 3px solid var(--inputfield-focus-color);
+  outline-offset: 2px;
 }
 .sr-only {
   position:absolute;

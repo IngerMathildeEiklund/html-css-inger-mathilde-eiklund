@@ -93,4 +93,7 @@
   .text-container {
     font-size: 1.2rem;
   }
+.hero-text {
+  font-size: 5rem;
+}
 }
