@@ -1,0 +1,16 @@
+.coming-soon-container {
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.return-to-homepage a button{
+  color: solid var(--main-text-color);
+  margin-top:2rem;
+}
+
+
+.coming-soon-main {
+  display: flex;
+  justify-content: center
+}

@@ -5,6 +5,7 @@
 
 }
 
+
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,11 +18,10 @@
 }
 @media (min-width: 1025px) {
 .products-main {
-  margin-inline: 20rem;
+  margin-inline: 10rem;
 }
  .grid {
     gap:10rem;
   }
 }
-
 

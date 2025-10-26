@@ -30,6 +30,7 @@ nav {
   .womens-page {
     color: var(--main-text-color);
   }
+  
 
 .search-bar-div {
   display: flex;
@@ -51,7 +52,7 @@ nav {
 
 .searchbar-container  {
   display: none;
-  /* border: 1px solid red */
+
   
 }
 

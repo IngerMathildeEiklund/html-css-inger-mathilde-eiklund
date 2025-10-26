@@ -9,9 +9,17 @@
 
 .footer-links,
 p {
-  color: rgb(188, 188, 188);
+  color: var(--nav-desktop-text-color);
+}
+.footer-links,
+a {
+  color: var(--nav-desktop-text-color);
 }
 
+.footer-links,
+a:hover {
+  color: var(--nav-desktop-text-color);
+}
 i {
   font-size: 1.7rem;
 }

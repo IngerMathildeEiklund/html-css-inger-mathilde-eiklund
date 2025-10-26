@@ -9,6 +9,7 @@
 .card-info {
   margin-block: 2rem;
   margin-inline: 1rem;
+  line-height: 2.5rem;
 }
 .card img {
   width: 100%;
@@ -68,7 +69,7 @@
   justify-self: center;
   flex-direction: column;
 }
-/* .............. iPads (tablets) - Landscape ............ */
+
 @media (min-width: 768px) {
   .card3 {
     display: block;
@@ -85,13 +86,13 @@
     flex-direction: column;
     font-size: 1.2rem;
   }
+    .new-arrivals {
+    margin-inline: 5rem;
+  }
 }
 @media (min-width: 1025px) {
   .new-arrivals {
-    margin-inline: 10rem;
-  }
-  .text-container {
-    font-size: 1.2rem;
+    margin-inline: 15rem;
   }
 .hero-text {
   font-size: 5rem;
