@@ -4,9 +4,17 @@
 
 }
 
-.return-to-homepage a button{
-  color: solid var(--main-text-color);
-  margin-top:2rem;
+.return-to-homepage.button{
+  background-color: var(--secondary-color);
+  
+}
+.return-to-homepage.button:hover{
+  background-color: var(--on-hover-secondary-button-color);
+  
+}
+
+.return-to-homepage-container {
+  margin-block:5rem;
 }
 
 

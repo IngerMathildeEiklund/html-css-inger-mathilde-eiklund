@@ -6,7 +6,8 @@
     border-radius: 0.5rem;
     border: none;
     margin-block: 2rem;
-    color: var(--button-text-color)
+    color: var(--button-text-color);
+    text-align: center;
 }
 .collection-button-container, .seemore-button-container  {
     display: flex;
@@ -14,6 +15,9 @@
 }
 .collection-button, .seemore-button {
     background-color: var(--secondary-color);
+}
+.collection-button:hover, .seemore-button:hover {
+    background-color: var(--on-hover-secondary-button-color);
 }
 .pay-order-button {
   background-color: var(--tertiary-color);
@@ -51,6 +55,13 @@ background-color: var(--on-hover-tertiary-button-color);
 
 @media (min-width: 768px)  {
 .button{
-    font-size: 1.5rem;
+    font-size: 1.125rem;
 }
+
+}
+@media (min-width: 1025px) {
+    .button {
+        font-size: 1.25rem;
+    }
+
 }

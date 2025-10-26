@@ -44,13 +44,11 @@ p {
 a {
   text-decoration: none;
   font-family: "Open sans";
-  color: var(--nav-active-color);
 }
 
 
 li {
   list-style-type: none;
-  color: solid white;
 }
 
 

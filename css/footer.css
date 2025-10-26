@@ -3,22 +3,14 @@
   height: 20px;
 }
 
-.footer-links {
-  text-decoration: none;
-}
-
-.footer-links,
-p {
+.contact-us-info p {
   color: var(--nav-desktop-text-color);
 }
-.footer-links,
-a {
+.about-us-info a {
   color: var(--nav-desktop-text-color);
 }
-
-.footer-links,
-a:hover {
-  color: var(--nav-desktop-text-color);
+.about-us-info a:hover, a:active {
+  color: var(--nav-desktop-text-color-focus-hover);
 }
 i {
   font-size: 1.7rem;
@@ -75,7 +67,6 @@ i {
   margin-top: 2rem;
 }
 
-/* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .container-text {
     flex-direction: row;

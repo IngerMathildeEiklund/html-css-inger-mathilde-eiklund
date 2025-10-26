@@ -124,7 +124,7 @@ nav {
 .nav-container a {
   color:var(--nav-desktop-text-color);
 }
-.nav-container a:focus, a:hover {
+.nav-container a:focus a:hover {
   color: var(--nav-desktop-text-color-focus-hover);
   text-decoration: underline;
 }
