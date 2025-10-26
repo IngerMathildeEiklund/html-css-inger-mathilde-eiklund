@@ -73,13 +73,10 @@ h3 {
  font-size: 1.25rem;
 
 }
-p {
+p, a {
   font-size: 1.125rem;
 }
 
-a {
-  font-size: 1.125rem;
-}
 
 }
 @media (min-width: 1025px) {
@@ -93,13 +90,10 @@ h3 {
  font-size: 1.5rem;
 
 }
-p {
+p, a {
   font-size: 1.25rem;
 }
 
-a {
-  font-size: 1.25rem;
-}
 
 
 }
