@@ -75,10 +75,10 @@ nav {
   .searchbar-container {
     order: 2;
   }
-  .fa-user {
+  .user-box {
     order: 3;
   }
-  .fa-bag-shopping {
+  .shoppingbag-box {
     order: 4;
   }
   .search-bar-div {
@@ -116,6 +116,7 @@ nav {
   }
   .header { 
     margin-inline: 6rem;
+    
   }
 .header i {
   font-size: 1.5rem;
@@ -152,6 +153,7 @@ nav {
   display: flex;
   align-items: right;
 }
+
 }
 
 

@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="" />
-     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-     
     <meta name="description" content="this is a description of the page" />
     <title>Rainy days | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,52 +37,40 @@
     <link href="css/confirmation.css" rel="stylesheet" />
     <link href="css/comingsoon.css" rel="stylesheet" />
 
-    <!-- <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/icons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/icons/site.webmanifest" />
-    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" /> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icons/site.webmanifest">
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
     <header>
       <div class="header">
-        <i class="fa-regular fa-user"></i>
-        <img
+        <a class="user-box"href="userprofile.html" aria-label="User profile">
+        <i class="fa-regular fa-user" aria-hidden="true"> 
+      </i></a>
+        <a href="index.html" aria-label="Rainy days home navigation"> 
+      <img
           class="rainy-days-logo"
           src="images/RainyDays_Logo.png"
           alt="Rainy Days logo"
-        />
+        /></a>
         <div class="searchbar-container">
-          <input class="searchbar-desktop" type="text" placeholder="Search" />
-          <i class="fa-solid fa-magnifying-glass magnifying-glass-desktop"></i>
+          <input class="searchbar-desktop"aria-label="Search" type="text" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass magnifying-glass-desktop"aria-hidden="true" ></i>
         </div>
-
-        <i class="fa-solid fa-bag-shopping"></i>
+        <a class="shoppingbag-box"  href="cart.html"aria-label="Shopping bag">
+        <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></a>
       </div>
 
       <!-- mobile -->
       <div class="search-bar-div">
-        <input class="searchbar" type="text" placeholder="Search" />
-
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="searchbar" aria-label="Search" type="text" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
       </div>
 
-      <nav class="nav-container">
+      <nav class="nav-container" aria-label="Main navigation">
         <a class="home-page" href="index.html">HOME</a>
         <a class="mens-page" href="mens.html">MENS</a>
         <a class="womens-page" href="womens.html">WOMENS</a>
@@ -94,12 +80,13 @@
       <section class="hero-section">
         <img
           class="hero-image"
-          src="images/tristan-pineda-iqRPZhNsTXE-unsplash-kopi-2-2.jpg"
+          src="images/tristan-pineda-iqRPZhNsTXE-unsplash-kopi-2-2.jpg" alt="Photo of a man in rainjacket in a forest"
         />
         <h1 class="hero-text">
           YOUR <br />
           JOURNEY<br />
-          BEGINS <br />TODAY
+          BEGINS <br />
+          TODAY
         </h1>
       </section>
 
@@ -108,7 +95,7 @@
         <div class="card">
           <img
             src="images/SCOTTmain.png"
-            alt="photo of Scott hardshell jacket"
+            alt="Photo of Scott hardshell superior jacket"
           />
           <div class="card-info">
             <h3>SCOTT</h3>
@@ -118,7 +105,7 @@
         </div>
 
         <div class="card">
-          <img src="images/FLEECE.png" alt="photo of Scott hardshell jacket" />
+          <img src="images/FLEECE.png" alt="Photo of Patagonia fleece jacket " />
           <div class="card-info">
             <h3>PATAGONIA</h3>
             <p>Supersoft fleece</p>
@@ -127,7 +114,7 @@
         </div>
 
         <div class="card card3">
-          <img src="images/ZOOMRED.png" alt="photo of Scott hardshell jacket" />
+          <img src="images/ZOOMRED.png" alt="photo " />
           <div class="card-info">
             <h3>ZOOM</h3>
             <p>Insulation plus</p>
@@ -206,7 +193,8 @@
           <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a>
           <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <img class="footer-logo" src="images/RainyDays_Logo.png" />
+        <a class="footer-logo-img" href="index.html" aria-label="Rainy days home navigation">
+        <img src="images/RainyDays_Logo.png" alt="Rainy Days logo" /></a>
         <p id="copyright-text">
           Copyright &copy; 2020 Rainydays, inc. All rights reserved.
         </p>

@@ -20,9 +20,11 @@ i {
   font-size: 1rem;
 }
 
-.footer-logo {
+.footer-logo-img img{
   width: 140px;
-  align-self: center;
+ justify-self: center;
+ display:block;
+
 }
 
 .container-blue {
