@@ -41,7 +41,6 @@ margin-inline:3rem;
   width:20rem;
   font-size: 1rem;
   box-sizing: border-box;
-  /* border: 3px var(--main-text-color); */
   border-color: var(--main-text-color);
   box-shadow: none;
 }
@@ -71,7 +70,6 @@ margin-inline:3rem;
 }
 .expresscheckout-container {
   order:3;
-  /* border:1px solid red; */
   justify-items: center;
   align-items: center;
 }
@@ -93,6 +91,9 @@ width: 6rem;
 }
 .details-sections {
   margin-block: 1rem;
+}
+.pay-order-button-container {
+  margin-top: 2rem;
 }
 
 

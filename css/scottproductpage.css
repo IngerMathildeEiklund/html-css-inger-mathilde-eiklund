@@ -46,16 +46,7 @@
     position: relative;
 
 }
-.sm-button, .ml-button {
-    background-color: var(--primary-color);
-    color: var( --nav-active-color);
-    font-size: 1rem;
-}
-.addtocart-button {
-    background-color: var(--secondary-color);
-    color: var(--button-text-color);
-    font-size: 1.5rem;
-}
+
 
 
 
@@ -77,7 +68,6 @@
     position: absolute;
     right: 0;
     bottom: 5rem;
-    font-size: 2rem;
 }
 .color-size-container {
     border: 1px solid red;
@@ -102,11 +92,17 @@
 
 @media (min-width: 768px)  {
 
+
+
 }
 
 
 @media (min-width: 1025px) {
 
+    .scottjacket-product-main {
+    margin-block: 2rem;
+    margin-inline: 10rem;
+}
 .product-container{
     display: flex;
     border: 1px solid red;
@@ -141,7 +137,6 @@
     line-height: 3rem;
     border: 1px solid red;
     flex:2;
-    font-size: 1rem;
 }
 
 .addtocart-container{
@@ -154,19 +149,10 @@
     height: 3rem;
  }
 .color-size-container {
-    position: absolute;
+    position: static;
     bottom:12rem;
 
 }
 
-.addtocart-button {
-    font-size: 1rem;
-}
-
-.addtocart-button {
-    background-color: var(--secondary-color);
-    color: var(--button-text-color);
-    font-size: 1rem;
-}
 
 }

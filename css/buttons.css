@@ -9,46 +9,25 @@
     color: var(--button-text-color);
     text-align: center;
 }
-.collection-button-container, .seemore-button-container  {
-    display: flex;
-    justify-content: center;
+.btn-orange {
+background-color: var(--secondary-color);
 }
-.collection-button, .seemore-button {
-    background-color: var(--secondary-color);
+.btn-orange:hover {
+background-color: var(--on-hover-secondary-button-color);
 }
-.collection-button:hover, .seemore-button:hover {
-    background-color: var(--on-hover-secondary-button-color);
+.btn-green {
+background-color: var(--tertiary-color);
 }
-.pay-order-button {
-  background-color: var(--tertiary-color);
-}
-.pay-order-button:hover {
-  background-color: var(--on-hover-tertiary-button-color);
-}
-.track-order-button {
-    background-color: var(--tertiary-color);
-}
-.track-order-button:hover {
-    background-color: var(--on-hover-tertiary-button-color);
-}
-.return-to-homepage-button {
-    background-color: var(--secondary-color);
-}
-.return-to-homepage-button:hover {
-    background-color: var(--on-hover-secondary-button-color);
-}
-.addbutton-cart {
-    background-color: var(--tertiary-color);
-}
-.addbutton-cart:hover {
-  
+.btn-green:hover {
 background-color: var(--on-hover-tertiary-button-color);
 }
-.continue-to-checkout-button {
-    background-color: var(--secondary-color);
+.btn-blue {
+background-color: var(--primary-color);
+color:var(--nav-active-color);
 }
-.continue-to-checkout-button:hover {
-    background-color: var(--on-hover-secondary-button-color);
+.btn-blue:hover {
+background-color: var(--on-hover-size-button-color);
+color:var(--nav-active-color);
 }
 
 
