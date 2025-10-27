@@ -52,6 +52,10 @@ i {
   justify-content: end;
   vertical-align: bottom;
 }
+.some-icons a {
+  text-decoration: none;
+color: var(--primary-color);
+}
 
 #copyright-text {
   font-size: 0.7rem;
