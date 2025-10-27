@@ -45,9 +45,14 @@ i {
   justify-content: center;
   gap: 10px;
 }
+.pay-icons a {
+  color: var(--nav-active-color);
+  text-decoration: none;
+}
+
 
 .some-icons {
-  color: rgb(25, 59, 59);
+  color: var(--primary-color);
   display: flex;
   justify-content: end;
   vertical-align: bottom;
@@ -80,6 +85,7 @@ color: var(--primary-color);
   .pay-icons {
     justify-self: end;
     padding-inline: 2rem;
+    
   }
   .pay-container {
     position: relative;
@@ -90,4 +96,10 @@ color: var(--primary-color);
     top: 1rem;
     right: 2rem;
   }
+}
+@media (min-width: 1025px) {
+
+}
+@media (min-width: 2550px) {
+  
 }
