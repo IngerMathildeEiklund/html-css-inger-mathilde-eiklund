@@ -3,27 +3,23 @@
     display: flex;
     flex-direction: column;
     border: 1px solid red;
-    justify-content: center;
-    align-content: center;
     max-width: 100%;
+    justify-self: center;
+    position: relative;
     
 }
 .image-column{
     display: flex;
     flex:1;
     flex-direction: row;
-    border: 1px solid red;
     justify-content: space-evenly;
     order: 2;
-
-    
 }
 .image-column img {
-    width:8rem;
+    width:7rem;
     height: auto;
     display: flex;
     order: 1;
-
 }
 .product-image img {
     width:100%;
@@ -32,7 +28,6 @@
     display:flex;
     flex:2;
     align-items: center;
-    border: 1px solid red;
     order: 1;
     max-width: 100%;
     height: auto;
@@ -41,21 +36,14 @@
 .product-info-container {
     display:flex;
     flex:2;
-    border: 1px solid red;
     order: 3;
     position: relative;
-
 }
-
-
-
-
 
 .product-colors{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- border: 1px solid red;
  max-width: 6rem;
 }
 .color{
@@ -64,48 +52,30 @@
     border-radius: 15%;
 }
 .price-container {
-    border: 1px solid red;
     position: absolute;
     right: 0;
     bottom: 5rem;
 }
-.color-size-container {
-    border: 1px solid red;
-}
-.addtocart-container {
-    border: 1px solid red;
-    position:absolute;
-    bottom:0;
-    right: 0;
 
+.addtocart-container {
+    position:absolute;
+    bottom:1rem;
+    right: 0;
 }
-.product-name-container{
-    border: 1px solid red;
-}
+
 .fit-type-container {
-    border: 1px solid red;
     margin-block: 2rem;
 }
-
-
 
 
 @media (min-width: 768px)  {
 
-
-
-}
-
-
-@media (min-width: 1025px) {
-
-    .scottjacket-product-main {
+.scottjacket-product-main {
     margin-block: 2rem;
-    margin-inline: 10rem;
+    margin-inline: 5rem;
 }
 .product-container{
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     align-content: center;
     flex-direction: row;
@@ -113,13 +83,11 @@
 .image-column{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     flex:1;
-    max-width: 15rem;
+    max-width: 20rem;
     order:1;
 }
-.image-column img{
-    
+.image-column img{ 
     height: auto;
     width:100%;
     
@@ -127,7 +95,6 @@
 .product-image {
     display:flex;
     align-items: center;
-    border: 1px solid red;
     height: auto;
     width: 100%;
     flex:2;
@@ -135,13 +102,13 @@
 
 .product-info-container {
     line-height: 3rem;
-    border: 1px solid red;
     flex:2;
 }
 
 .addtocart-container{
     position: absolute;
-    left: 0;
+    right:0;
+    bottom:5rem;
 
 }
 .price-container{
@@ -150,9 +117,19 @@
  }
 .color-size-container {
     position: static;
-    bottom:12rem;
 
 }
+.button-size-container {
+    border:1px solid red;
+    display:block;
+}
+}
 
+@media (min-width: 1025px) { 
+.addtocart-container{
+    position: absolute;
+    left:0;
+    bottom:0;
 
+}
 }

@@ -8,6 +8,7 @@
   align-items: center;
   padding-inline: 2rem;
   padding-block: 1rem;
+  
 }
 .searchbar-desktop:focus {
   outline: 3px solid var(--inputfield-focus-color);
@@ -24,6 +25,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding-block:1rem;
+
 }
 .home-page,
   .mens-page,

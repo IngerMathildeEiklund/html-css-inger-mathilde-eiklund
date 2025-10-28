@@ -5,8 +5,6 @@
     padding-inline: 1rem;
     border-radius: 0.5rem;
     border: none;
-    margin-block: 2rem;
-    margin-inline: 1rem;
     color: var(--button-text-color);
     text-align: center;
 }
@@ -37,7 +35,6 @@ color:var(--nav-active-color);
 .button{
     font-size: 1.125rem;
 }
-
 }
 @media (min-width: 1025px) {
     .button {

@@ -2,15 +2,26 @@
 .klarna-svg {
   height: 1.2rem;
 }
+.contact-us-header {
+  color: var(--nav-desktop-text-color);
+  font-weight: 500;
+}
+.contact-us-info {
+  display:flex;
+  flex-direction: column;
+}
 
 .contact-us-info p {
+  color: var(--nav-desktop-text-color);
+}
+.contact-us-info a {
   color: var(--nav-desktop-text-color);
 }
 .about-us-info a {
   color: var(--nav-desktop-text-color);
 }
-.about-us-info a:hover, a:active {
-  color: var(--nav-desktop-text-color-focus-hover);
+.about-us-info a:hover, .contact-us-info a:hover  {
+  color: var(--nav-active-color);
 }
 i {
   font-size: 1.7rem;
