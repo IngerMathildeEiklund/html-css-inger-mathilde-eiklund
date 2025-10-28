@@ -62,137 +62,159 @@
   </head>
   <body>
     <main class="details-main">
-      <div class="details-ordersummary-content">
-        <section class="details-sections">
-          <div class="details-text-container">
-            <h2>Details</h2>
-          </div>
-          <label for="firstname" class="sr-only">First name</label>
-          <input
-            class="inputfield-details"
-            type="text"
-            id="firstname"
-            name="firstname"
-            placeholder="First name"
-            required
-            aria-required="true"
-          />
-          <label for="lastname" class="sr-only">Last name</label>
-          <input
-            class="inputfield-details"
-            type="text"
-            id="lastname"
-            name="lastname"
-            placeholder="Last name"
-            required
-            aria-required="true"
-          />
-          <label for="address" class="sr-only">Address</label>
-          <input
-            class="inputfield-details"
-            type="text"
-            id="address"
-            name="address"
-            placeholder="Address"
-            required
-            aria-required="true"
-          />
-          <label for="emailaddress" class="sr-only">Email Address</label>
-          <input
-            class="inputfield-details"
-            type="email"
-            id="emailaddress"
-            name="emailaddress"
-            placeholder="Email address"
-            required
-            aria-required="true"
-          />
-          <label for="phonenumber" class="sr-only">Phone number</label>
-          <input
-            class="inputfield-details"
-            type="tel"
-            id="phonenumber"
-            name="phonenumber"
-            placeholder="Phone number"
-            required
-            aria-required="true"
-          />
-          <label for="billingaddress" class="sr-only">Billing address</label>
-          <input
-            class="inputfield-details"
-            type="text"
-            id="billingaddress"
-            name="billingaddress"
-            placeholder="Billing address"
-            required
-            aria-required="true"
-          />
-        </section>
-        <section class="ordersummary-section">
-          <div class="ordersummary-text-container">
-            <h2>Order summary</h2>
-          </div>
-          <div class="image-text-container">
-            <div class="ordersummary-image-container">
-              <img src="images/SCOTTmain.png" alt="photo of scott jacket" />
+      <form>
+        <div class="details-ordersummary-content">
+          <section class="details-sections" aria-label="Checkout details">
+            <div class="details-text-container">
+              <h1>Checkout details</h1>
             </div>
-            <div class="ordersummary-text">
-              <div class="productname-container">
-                <h2>SCOTT</h2>
-                <p>Hardshell superior</p>
+            <label for="firstname" class="sr-only">First name</label>
+            <input
+              class="inputfield-details"
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="First name"
+              required
+            />
+            <label for="lastname" class="sr-only">Last name</label>
+            <input
+              class="inputfield-details"
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Last name"
+              required
+            />
+            <label for="address" class="sr-only">Address</label>
+            <input
+              class="inputfield-details"
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Address"
+              required
+            />
+            <label for="emailaddress" class="sr-only">Email Address</label>
+            <input
+              class="inputfield-details"
+              type="email"
+              id="emailaddress"
+              name="emailaddress"
+              placeholder="Email address"
+              required
+            />
+            <label for="phonenumber" class="sr-only">Phone number</label>
+            <input
+              class="inputfield-details"
+              type="tel"
+              id="phonenumber"
+              name="phonenumber"
+              placeholder="Phone number"
+              required
+            />
+            <label for="billingaddress" class="sr-only">Billing address</label>
+            <input
+              class="inputfield-details"
+              type="text"
+              id="billingaddress"
+              name="billingaddress"
+              placeholder="Billing address"
+              required
+            />
+          </section>
+          <section class="ordersummary-section" aria-label="Order summary">
+            <div class="ordersummary-text-container">
+              <h1>Order summary</h1>
+            </div>
+            <div class="image-text-container">
+              <div class="ordersummary-image-container">
+                <img src="images/SCOTTmain.png" alt="photo of scott jacket" />
               </div>
-              <p>Color: Black</p>
-              <p>Size: Medium</p>
-              <div class="quantity-total-container">
-                <p>Quantity: 1</p>
-                <p>100,99 £</p>
+              <div class="ordersummary-text">
+                <div class="productname-container">
+                  <h3>SCOTT</h3>
+                  <p>Hardshell superior</p>
+                </div>
+                <p>Color: Black</p>
+                <p>Size: Medium</p>
+                <div class="quantity-total-container">
+                  <p>Quantity: 1</p>
+                  <p>100.99 £</p>
+                </div>
               </div>
             </div>
-          </div>
-          <label for="giftcard-discountcode" class="sr-only"
-            >Giftcard or discount</label
-          >
-          <input
-            class="inputfield-details"
-            type="text"
-            id="discountcode-giftcard"
-            name="discountcode-giftcard"
-            placeholder="Discount code / Giftcard"
-            aria-required="false"
-          />
-          <div class="shipping-container">
-            <p>Shipping and handling</p>
-            <h3>25 £</h3>
-          </div>
-          <div class="total-container">
-            <p>Total</p>
-            <h3>125,99 £</h3>
-          </div>
-          <hr />
-        </section>
-      </div>
+            <label for="discountcode-giftcard" class="sr-only"
+              >Giftcard or discount</label
+            >
+            <input
+              class="inputfield-details"
+              type="text"
+              id="discountcode-giftcard"
+              name="discountcode-giftcard"
+              placeholder="Discount code / Giftcard"
+            />
+            <div class="definition-list s-a-h">
+              <dl class="order-total-dl">
+                <dt class="order-label">Shipping and handling</dt>
+                <dd class="order-value">25 £</dd>
+              </dl>
+            </div>
 
-      <section class="expresscheckout-container">
-        <h3>Express checkout</h3>
-        <div class="paymentoptions-container">
-          <img src="svg/paypal-svgrepo-com.svg" alt="icon of paypal payment" />
-          <img
-            src="svg/klarnapink-svgrepo-com.svg"
-            alt="icon of klarna payment"
-          />
-          <img
-            src="svg/google-pay-svgrepo-com.svg"
-            alt="icon of googlepay
-          payment"
-          />
+            <div class="definition-list">
+              <dl class="order-total-dl">
+                <dt class="order-label">Total</dt>
+                <dd class="order-value">125.99 £</dd>
+              </dl>
+            </div>
+
+            <hr aria-hidden="true" />
+          </section>
         </div>
-        <h2>Order total: 125,99 £</h2>
-        <div class="pay-order-button-container">
-          <a class="button pay-order-button btn-green" href="confirmation.html"
-            >Pay order</a
-          >
-        </div>
-      </section>
+
+        <section class="expresscheckout-container">
+          <h3>Express checkout</h3>
+          <div class="paymentoptions-container">
+            <a
+              href="https://www.paypal.com/"
+              target="_blank"
+              aria-label="Pay with Paypal"
+            >
+              <img src="svg/paypal-svgrepo-com.svg" alt="Pay with Paypal" />
+            </a>
+            <a
+              href="https://www.klarna.com/no/"
+              target="_blank"
+              aria-label="Pay with Klarna"
+            >
+              <img src="svg/klarnapink-svgrepo-com.svg" alt="Pay with klarna" />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user"
+              target="_blank"
+              aria-label="We accept Google Pay"
+            >
+              <img
+                src="svg/google-pay-svgrepo-com.svg"
+                alt="Pay with Google pay"
+            /></a>
+          </div>
+
+          <div class="definition-list">
+            <dl class="order-total-dl column">
+              <dt class="order-label">Order total</dt>
+              <dd class="order-value">125.99 £</dd>
+            </dl>
+          </div>
+          <div class="pay-order-button-container">
+            <a
+              class="button pay-order-button btn-green"
+              href="confirmation.html"
+              >Pay order</a
+            >
+          </div>
+        </section>
+      </form>
     </main>
   </body>
 </html>

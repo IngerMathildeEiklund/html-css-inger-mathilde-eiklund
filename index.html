@@ -50,13 +50,13 @@
         <a class="user-box"href="userprofile.html" aria-label="User profile">
         <i class="fa-regular fa-user" aria-hidden="true"> 
       </i></a>
-        <a href="index.html" aria-label="Rainy days home navigation"> 
+        <a href="index.html" aria-label="Go to Rainy days homepage"> 
       <img
           class="rainy-days-logo"
           src="images/RainyDays_Logo.png"
           alt="Rainy Days logo"
         /></a>
-        <div class="searchbar-container">
+        <div class="searchbar-container" role="search">
           <input class="searchbar-desktop"aria-label="Search" type="text" placeholder="Search" />
           <i class="fa-solid fa-magnifying-glass magnifying-glass-desktop"aria-hidden="true" ></i>
         </div>
@@ -65,7 +65,7 @@
       </div>
 
       <!-- mobile -->
-      <div class="search-bar-div">
+      <div class="search-bar-div" role="search">
         <input class="searchbar" aria-label="Search" type="text" placeholder="Search" />
         <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
       </div>
@@ -83,10 +83,7 @@
           src="images/tristan-pineda-iqRPZhNsTXE-unsplash-kopi-2-2.jpg" alt="Photo of a man in rainjacket in a forest"
         />
         <h1 class="hero-text">
-          YOUR <br />
-          JOURNEY<br />
-          BEGINS <br />
-          TODAY
+          YOUR <span>JOURNEY</span> <span>BEGINS </span> <span>TODAY </span>
         </h1>
       </section>
 
@@ -124,7 +121,7 @@
       </section>
 
       <div class="collection-button-container">
-        <a class="button collection-button btn-orange" href="mens.html"> 
+        <a class="button collection-button btn-orange" href="mens.html"aria-label="Check out the mens collection"> 
             Check out the collection </a
         >
       </div>
@@ -132,7 +129,7 @@
       <section>
         <img
           class="our-products-image"
-          src="images/andy-kogl-b9DoidQoWiY-unsplash-kopi-2-2.jpg"
+          src="images/andy-kogl-b9DoidQoWiY-unsplash-kopi-2-2.jpg" alt="Photo of a person with their back turned standing in the rain with a rainjacket on"
         />
         <div class="text-container">
           <h2 class="our-products-title">OUR PRODUCTS</h2>
@@ -149,7 +146,7 @@
 
       <div class="seemore-button-container">
         <a href="mens.html"
-          ><a class=" seemore-button button btn-orange"href=mens.html>See more</a
+          ><a class=" seemore-button button btn-orange"href=mens.html aria-label="Click to see all mens products">See more</a
         >
       </div>
     </main>
@@ -181,19 +178,25 @@
         </div>
         <div class="pay-container">
           <div class="pay-icons">
-            <a href="https://www.paypal.com/" target="_blank"><i class="fa-brands fa-cc-paypal"></i></a>
-            <a href="https://www.pay.google.com/" target="_blank"><i class="fa-brands fa-google-pay"></i></a>
-            <a href="https://www.klarna.com/" target="_blank"><img class="klarna-svg" src="svg/klarna-svgrepo-com.png" /></a>
+            <a href="https://www.paypal.com/" target="_blank" aria-label="We accept Paypal">
+              <i class="fa-brands fa-cc-paypal"></i></a>
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user" target="_blank" aria-label="We accept Google Pay">
+              <i class="fa-brands fa-google-pay"></i></a>
+            <a href="https://www.klarna.com/no/" target="_blank" aria-label="We accept Klarna">
+              <img class="klarna-svg" src="svg/klarna-svgrepo-com.png" alt="Image of Klarna logo" /></a>
           </div>
         </div>
       </div>
       <div class="container-whitespace">
         <div class="some-icons">
-          <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-square-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook">
+            <i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram">
+            <i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" aria-label="Follow us on Youtube">
+            <i class="fa-brands fa-youtube"></i></a>
         </div>
-        <a class="footer-logo-img" href="index.html" aria-label="Rainy days home navigation">
+        <a class="footer-logo-img" href="index.html" aria-label="Go to Rainy days homepage">
         <img src="images/RainyDays_Logo.png" alt="Rainy Days logo" /></a>
         <p id="copyright-text">
           Copyright &copy; 2020 Rainydays, inc. All rights reserved.

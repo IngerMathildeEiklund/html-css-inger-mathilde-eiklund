@@ -51,13 +51,41 @@ li {
   list-style-type: none;
 }
 
-
-
 input:focus {
   border-style: solid;
   border-color: var(--main-text-color);
   outline: none;
 }
+
+.definition-list {
+  font-family: 'Open sans';
+
+}
+.order-total-dl  {
+  font-weight: 700;
+  color: var(--main-text-color);
+  display:flex;
+  justify-content: space-between;
+  margin:0;
+  padding:0;
+}
+.order-label {
+  font-size: 1.125rem;
+  color: var(--main-text-color);
+  margin:0;
+}
+.order-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main-text-color);
+  margin:0;
+}
+.column {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 
 
 @media (min-width: 768px) {
@@ -74,6 +102,13 @@ h3 {
 p, a {
   font-size: 1.125rem;
 }
+.order-label {
+  font-size: 1.25rem;
+}
+.order-value {
+  font-size: 1.5rem;
+}
+
 
 
 }

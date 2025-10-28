@@ -106,7 +106,7 @@
               <button class="button addbutton-cart btn-green">Add +</button>
             </div>
           </div>
-          <hr class="vertical-hr" />
+          <hr class="vertical-hr" aria-hidden="true" />
         </div>
       </section>
 
@@ -119,7 +119,7 @@
             <img src="images/SCOTTmain.png" />
           </div>
           <div class="product-text-container">
-            <h2>SCOTT<br /></h2>
+            <h3>SCOTT</h3>
             <p class="hardshell-superior">Hardshell superior</p>
             <p>Color: Black</p>
             <p>Size: Medium/Large</p>
@@ -139,14 +139,16 @@
             />
           </div>
         </div>
-        <hr class="horizontal-hr" />
-        <div class="checkout-button-container">
-          <div class="total-text-container">
-            <h2>Total</h2>
-            <h2>100,99 £</h2>
-          </div>
-          <p>Shipping will be calculated in the next step.</p>
+        <hr class="horizontal-hr" aria-hidden="true" />
 
+        <div class="definition-list">
+          <dl class="order-total-dl">
+            <dt class="order-label">Total</dt>
+            <dd class="order-value">100.99 £</dd>
+          </dl>
+        </div>
+        <p>Shipping will be calculated in the next step.</p>
+        <div class="continue-to-checkout-button-container">
           <a
             class="button continue-to-checkout-button btn-orange"
             href="details.html"

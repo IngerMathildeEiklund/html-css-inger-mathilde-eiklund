@@ -1,8 +1,6 @@
 .details-main{
-margin-inline:3rem;
+margin-inline:1rem;
 }
-
-
 .inputfield-details:focus {
   outline: 3px solid var(--inputfield-focus-color);
   outline-offset: 2px;
@@ -22,7 +20,6 @@ margin-inline:3rem;
   justify-content: center;
   align-content: center;
   gap: 1rem;
-  /* border: 1px solid red; */
 }
 .details-sections {
   display: flex;
@@ -43,6 +40,7 @@ margin-inline:3rem;
   box-sizing: border-box;
   border-color: var(--main-text-color);
   box-shadow: none;
+  margin-bottom: 1rem;
 }
 .ordersummary-image-container img {
   width: 100%;
@@ -63,11 +61,6 @@ margin-inline:3rem;
 .productname-container {
   margin-bottom: 2rem;
 }
-.shipping-container, .total-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .expresscheckout-container {
   order:3;
   justify-items: center;
@@ -83,9 +76,7 @@ margin-inline:3rem;
 width: 6rem;
 
 }
-.shipping-container, .total-container {
-  margin-block: 1rem;
-}
+
 .details-text-container, .ordersummary-text-container {
   margin-block: 1rem;
 }
@@ -95,10 +86,12 @@ width: 6rem;
 .pay-order-button-container {
   margin-top: 2rem;
 }
-
-
-
-
+.s-a-h {
+  margin-block: 1rem;
+}
+.total-container .shipping-container {
+ border:1px solid red;
+}
 
 
 @media (min-width: 768px) {
@@ -115,10 +108,14 @@ width: 6rem;
   flex-direction: row;
   flex-basis: 100%;
 }
-.details-text-container, .ordersummary-text-container {
-  margin-block: 2rem;
+.ordersummary-text-container {
+  margin-block:1.8rem;
 }
+
 .details-ordersummary-content {
   gap: 6rem;
+}
+.inputfield-details {
+  width:25rem;
 }
 }
