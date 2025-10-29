@@ -44,6 +44,7 @@ i {
 .container-text {
   display: flex;
   flex-direction: column;
+  line-height: 3rem;
 }
 
 .container-whitespace {
@@ -88,14 +89,13 @@ color: var(--primary-color);
   align-self: center;
   margin-top: 2rem;
 }
-.container-text  {
-  line-height: 3rem;
-}
+
 
 @media (min-width: 768px) {
   .container-text {
     flex-direction: row;
     justify-content: center;
+    gap:15rem;
   }
 
   .pay-icons {

@@ -96,8 +96,8 @@ nav {
   }
   .nav-container {
     background-color: var(--primary-color);
-    padding-inline: 3rem;
-    padding-block: 0.6rem;
+    padding-inline: 5rem;
+    padding-block: 1rem;
   }
   
   .searchbar-container {
