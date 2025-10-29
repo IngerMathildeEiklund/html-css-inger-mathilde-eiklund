@@ -2,7 +2,6 @@
 .content-container{
     display:flex;
     flex-direction: column;
-    margin-inline:1rem;
 }
 
 .anything-else-container{

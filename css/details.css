@@ -1,6 +1,4 @@
-.details-main{
-margin-inline:1rem;
-}
+
 .inputfield-details:focus {
   outline: 3px solid var(--inputfield-focus-color);
   outline-offset: 2px;
@@ -84,7 +82,7 @@ width: 6rem;
   margin-block: 1rem;
 }
 .pay-order-button-container {
-  margin-top: 2rem;
+  margin-block: 2rem;
 }
 .s-a-h {
   margin-block: 1rem;

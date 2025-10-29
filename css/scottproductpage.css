@@ -2,7 +2,6 @@
 .product-container{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     max-width: 100%;
     justify-self: center;
     position: relative;
@@ -69,11 +68,6 @@
 
 
 @media (min-width: 768px)  {
-
-.scottjacket-product-main {
-    margin-block: 2rem;
-    margin-inline: 5rem;
-}
 .product-container{
     display: flex;
     justify-content: center;
@@ -120,7 +114,6 @@
 
 }
 .button-size-container {
-    border:1px solid red;
     display:block;
 }
 }

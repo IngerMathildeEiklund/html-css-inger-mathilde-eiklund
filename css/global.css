@@ -17,7 +17,12 @@
   --nav-desktop-text-color: #d2d2d2;
   --nav-desktop-text-color-focus-hover: #fffff4;
 }
-
+.main {
+  padding-inline: 1rem;
+  padding-block:1rem;
+  max-width: 1500px;
+  margin:0 auto;
+}
 h1 {
   font-family: "Open sans",'Helvetica';
   color: var(--main-text-color);
@@ -115,6 +120,11 @@ input:focus {
   flex-direction: column;
   text-align: center;
 }
+.back-button {
+  color: var(--main-text-color);
+  width:1rem;
+  height:1rem;
+}
 
 
 
@@ -143,6 +153,7 @@ p, a {
 }
 
 
+
 }
 @media (min-width: 1025px) {
 h1 {
@@ -158,9 +169,10 @@ h3 {
 p, a {
   font-size: 1.25rem;
 }
-    .button {
-        font-size: 1.25rem;
-    }
+.button {
+ font-size: 1.25rem;
+}
+
 
 
 

@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="" />
-     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-     
     <meta name="description" content="this is a description of the page" />
-    <title>Rainy days | Confirmation </title>
+    <title>Rainy days | Confirmation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,15 +31,29 @@
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/confirmation.css" rel="stylesheet" />
 
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="./assets/icons/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/site.webmanifest" />
     <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
   </head>
-    
+
   <body>
-        <header>
+    <header>
       <div class="header">
         <a class="user-box" href="userprofile.html" aria-label="User profile">
           <i class="fa-regular fa-user" aria-hidden="true"> </i
@@ -86,59 +98,71 @@
         <a class="womens-page" href="womens.html">WOMENS</a>
       </nav>
     </header>
-    <main>
-    <div class="confirmation-summary-container">
-      <section class="order-confirmation-container">
-        <div class="order-confirmation-text-container">
-          <h1>Thank you for your order!</h1>
-          <p>An order confirmation has been sent to your email.</p>
-          <p>Order: #69420</p>
-        </div>
-        <div class="billing-address-container">
-          <h3>Billing address</h3>
-          <p>Name: Jane Doe</p>
-          <p>Address: Street 64</p>
-          <p>Phone: 87654321</p>
-          <p>Email: JaneDoe@email.com</p>
-          <button class="button track-order-button btn-green">Track your order</button>
-        </div>
-        
-    </section>
-      
-      <section class="order-summary-container">
-        
-        <div class="order-summary-text-container">
-          <h1>Order summary</h1>
-          <p>Order: #69420</p>
-        </div>
-        <div class="image-text-summary-container">
-          <div class="image-summary-container">
-            <img src="images/SCOTTmain.png" alt="image of scott product" />
+    <main class="main">
+      <a
+        class="back-button"
+        href="index.html"
+        aria-label="return to previpus page"
+      >
+        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+      </a>
+      <div class="confirmation-summary-container">
+        <section class="order-confirmation-container">
+          <div class="order-confirmation-text-container">
+            <h1>Thank you for your order!</h1>
+            <p>An order confirmation has been sent to your email.</p>
+            <p>Order: #69420</p>
           </div>
-          <div class="product-summary-container">
-            <div class="scott-header-container"> 
-            <h3>SCOTT</h3>
-            <p>Hardshell superior</p>
-            </div>
-            <p>Color: Black</p>
-            <p>Size: Medium/Large</p>
-            <p>Quantity: 1</p>
+          <div class="billing-address-container">
+            <h3>Billing address</h3>
+            <p>Name: Jane Doe</p>
+            <p>Address: Street 64</p>
+            <p>Phone: 87654321</p>
+            <p>Email: JaneDoe@email.com</p>
+            <button class="button track-order-button btn-green">
+              Track your order
+            </button>
           </div>
-        </div>
-        <hr class="horizontal-hr-order-summary"/>
-        <div class="totalsum-container">
-          <h2> Total 125,99 £</h2>
-        </div>
+        </section>
 
-      </section>
-    </div>
-    <div class="return-button-container">
-      <a class="button return-to-homepage-button btn-orange"href=index.html> Return to homepage </a>
-    </div>
-        <footer>
+        <section class="order-summary-container">
+          <div class="order-summary-text-container">
+            <h1>Order summary</h1>
+            <p>Order: #69420</p>
+          </div>
+          <div class="image-text-summary-container">
+            <div class="image-summary-container">
+              <img src="images/SCOTTmain.png" alt="image of scott product" />
+            </div>
+            <div class="product-summary-container">
+              <div class="scott-header-container">
+                <h3>SCOTT</h3>
+                <p>Hardshell superior</p>
+              </div>
+              <p>Color: Black</p>
+              <p>Size: Medium/Large</p>
+              <p>Quantity: 1</p>
+            </div>
+          </div>
+          <hr class="horizontal-hr-order-summary" />
+          <div class="totalsum-container">
+            <h2>Total 125,99 £</h2>
+          </div>
+        </section>
+      </div>
+      <div class="return-button-container">
+        <a
+          class="button return-to-homepage-button btn-orange"
+          href="index.html"
+        >
+          Return to homepage
+        </a>
+      </div>
+    </main>
+    <footer>
       <div class="container-blue">
         <div class="container-text">
-          <div class="contact-us-info" >
+          <div class="contact-us-info">
             <h3 class="contact-us-header">Contact us:</h3>
             <a href="mailto:Contact@rainydays.com">Contact@rainydays.com</a>
             <a href="tel:+01632 960000">Phone: 01632 960000</a>
@@ -162,28 +186,66 @@
         </div>
         <div class="pay-container" aria-label="Payment options">
           <div class="pay-icons">
-            <a href="https://www.paypal.com/" target="_blank" aria-label="We accept Paypal">
-              <i class="fa-brands fa-cc-paypal"></i></a>
-            <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user" target="_blank" aria-label="We accept Google Pay">
-              <i class="fa-brands fa-google-pay"></i></a>
-            <a href="https://www.klarna.com/no/" target="_blank" aria-label="We accept Klarna">
-              <img class="klarna-svg" src="svg/klarna-svgrepo-com.png" alt="Klarna" /></a>
+            <a
+              href="https://www.paypal.com/"
+              target="_blank"
+              aria-label="We accept Paypal"
+            >
+              <i class="fa-brands fa-cc-paypal"></i
+            ></a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user"
+              target="_blank"
+              aria-label="We accept Google Pay"
+            >
+              <i class="fa-brands fa-google-pay"></i
+            ></a>
+            <a
+              href="https://www.klarna.com/no/"
+              target="_blank"
+              aria-label="We accept Klarna"
+            >
+              <img
+                class="klarna-svg"
+                src="svg/klarna-svgrepo-com.png"
+                alt="Klarna"
+            /></a>
           </div>
         </div>
       </div>
       <div class="container-whitespace">
         <div class="some-icons">
-          <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook">
-            <i class="fa-brands fa-square-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram">
-            <i class="fa-brands fa-square-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" aria-label="Follow us on Youtube">
-            <i class="fa-brands fa-youtube"></i></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            aria-label="Follow us on Facebook"
+          >
+            <i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="Follow us on Instagram"
+          >
+            <i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            aria-label="Follow us on Youtube"
+          >
+            <i class="fa-brands fa-youtube"></i
+          ></a>
         </div>
-        <a class="footer-logo-img" href="index.html" aria-label="Go to Rainy days homepage">
-        <img src="images/RainyDays_Logo.png" alt="Rainy Days logo" /></a>
+        <a
+          class="footer-logo-img"
+          href="index.html"
+          aria-label="Go to Rainy days homepage"
+        >
+          <img src="images/RainyDays_Logo.png" alt="Rainy Days logo"
+        /></a>
         <p id="copyright-text">
-           &copy; 2020 Rainydays, inc. All rights reserved.
+          &copy; 2020 Rainydays, inc. All rights reserved.
         </p>
       </div>
     </footer>
