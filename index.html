@@ -30,12 +30,6 @@
     <link href="css/footer.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/mens.css" rel="stylesheet" />
-    <link href="css/buttons.css" rel="stylesheet" />
-    <link href="css/scottproductpage.css" rel="stylesheet" />
-    <link href="css/cart.css" rel="stylesheet" />
-    <link href="css/details.css" rel="stylesheet" />
-    <link href="css/confirmation.css" rel="stylesheet" />
-    <link href="css/comingsoon.css" rel="stylesheet" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
@@ -79,44 +73,46 @@
       <section class="hero-section">
         <img
           class="hero-image"
-          src="images/tristan-pineda-iqRPZhNsTXE-unsplash-kopi-2-2.jpg" alt="Photo of a man in rainjacket in a forest"
+          src="images/tristan-pineda-iqRPZhNsTXE-unsplash-kopi-2-2.jpg" 
+          fetchpriority="high"
+          alt="Photo of a man in rainjacket in a forest"
         />
         <h1 class="hero-text">
           YOUR <span>JOURNEY</span> <span>BEGINS </span> <span>TODAY </span>
         </h1>
       </section>
 
-      <h1 class="new-arrivals-title">NEW ARRIVALS</h1>
-      <section class="new-arrivals">
-        <div class="card">
+      <h1 id="new-arrivals-title">NEW ARRIVALS</h1>
+      <section class="new-arrivals" aria-labelledby="new-arrivals-title">
+        <a href="scottproductpage.html" aria-label="Click to view Scott Hardshell superior product" class="card">
           <img
             src="images/SCOTTmain.png"
             alt="Photo of Scott hardshell superior jacket"
           />
           <div class="card-info">
-            <h3>SCOTT</h3>
+            <h2>SCOTT</h2>
             <p>Hardshell superior</p>
             <p>100,99 €</p>
           </div>
-        </div>
+        </a>
 
-        <div class="card">
+        <a href="scottproductpage.html"aria-label="Click to view Patagonia Fleece product" class="card">
           <img src="images/FLEECE.png" alt="Photo of Patagonia fleece jacket " />
           <div class="card-info">
-            <h3>PATAGONIA</h3>
+            <h2>PATAGONIA</h2>
             <p>Supersoft fleece</p>
             <p>50,99 €</p>
           </div>
-        </div>
+        </a>
 
-        <div class="card card3">
+        <a href="scottproductpage.html"aria-label="Click to view Zoom insulation plus product" class="card card3">
           <img src="images/ZOOMRED.png" alt="photo " />
           <div class="card-info">
-            <h3>ZOOM</h3>
+            <h2>ZOOM</h2>
             <p>Insulation plus</p>
             <p>89,99 €</p>
           </div>
-        </div>
+        </a>
       </section>
 
       <div class="collection-button-container">
@@ -128,7 +124,9 @@
       <section>
         <img
           class="our-products-image"
-          src="images/andy-kogl-b9DoidQoWiY-unsplash-kopi-2-2.jpg" alt="Photo of a person with their back turned standing in the rain with a rainjacket on"
+          src="images/andy-kogl-b9DoidQoWiY-unsplash-kopi-2-2.jpg"
+          loading=lazy 
+          alt="Photo of a person with their back turned standing in the rain with a rainjacket on"
         />
         <div class="text-container">
           <h2 class="our-products-title">OUR PRODUCTS</h2>
@@ -144,12 +142,10 @@
       </section>
 
       <div class="seemore-button-container">
-        <a href="mens.html"
-          ><a class=" seemore-button button btn-orange"href=mens.html aria-label="Click to see all mens products">See more</a
+        <a href="mens.html"><a class=" seemore-button button btn-orange"href=mens.html aria-label="Click to see all mens products">See more</a
         >
       </div>
     </main>
-
     <footer>
       <div class="container-blue">
         <div class="container-text">

@@ -88,6 +88,9 @@ color: var(--primary-color);
   align-self: center;
   margin-top: 2rem;
 }
+.container-text  {
+  line-height: 3rem;
+}
 
 @media (min-width: 768px) {
   .container-text {

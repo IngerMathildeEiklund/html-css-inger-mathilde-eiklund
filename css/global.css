@@ -19,7 +19,7 @@
 }
 
 h1 {
-  font-family: "Open sans";
+  font-family: "Open sans",'Helvetica';
   color: var(--main-text-color);
   font-size: 1.5rem;
 }
@@ -49,6 +49,36 @@ a {
 
 li {
   list-style-type: none;
+}
+.button {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--button-text-color);
+    text-align: center;
+}
+.btn-orange {
+background-color: var(--secondary-color);
+}
+.btn-orange:hover {
+background-color: var(--on-hover-secondary-button-color);
+}
+.btn-green {
+background-color: var(--tertiary-color);
+}
+.btn-green:hover {
+background-color: var(--on-hover-tertiary-button-color);
+}
+.btn-blue {
+background-color: var(--primary-color);
+color:var(--nav-active-color);
+}
+.btn-blue:hover {
+background-color: var(--on-hover-size-button-color);
+color:var(--nav-active-color);
 }
 
 input:focus {
@@ -108,7 +138,9 @@ p, a {
 .order-value {
   font-size: 1.5rem;
 }
-
+.button{
+    font-size: 1.125rem;
+}
 
 
 }
@@ -126,6 +158,9 @@ h3 {
 p, a {
   font-size: 1.25rem;
 }
+    .button {
+        font-size: 1.25rem;
+    }
 
 
 

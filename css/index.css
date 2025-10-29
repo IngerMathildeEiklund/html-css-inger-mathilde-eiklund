@@ -46,8 +46,8 @@
   display:block;
 }
 
-.new-arrivals-title {
-  font-weight: 300;
+#new-arrivals-title {
+  font-weight: 400;
   margin: 2rem;
 }
 .our-products-image {
@@ -59,12 +59,10 @@
 .our-products-text,
 .our-products-title {
   line-height: 2;
-  font-weight: 300;
+  font-weight: 400;
+  margin:2rem;
 }
-.our-products-text,
-.our-products-title {
-  margin: 2rem;
-}
+
 .collection-button-container, .seemore-button-container  {
     display: flex;
     justify-content: center;
