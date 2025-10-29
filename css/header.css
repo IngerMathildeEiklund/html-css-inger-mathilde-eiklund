@@ -32,7 +32,9 @@ nav {
   .womens-page {
     color: var(--main-text-color);
   }
-  
+  .nav-container a:hover {
+    color: var(--nav-active-color);
+  }
 
 .search-bar-div {
   display: flex;

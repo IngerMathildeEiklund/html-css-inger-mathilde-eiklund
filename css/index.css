@@ -66,6 +66,7 @@
 .collection-button-container, .seemore-button-container  {
     display: flex;
     justify-content: center;
+    margin-block:1rem;
 }
 
 .text-container {
