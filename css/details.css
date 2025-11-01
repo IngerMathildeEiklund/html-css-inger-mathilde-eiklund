@@ -3,7 +3,6 @@
   outline: 3px solid var(--inputfield-focus-color);
   outline-offset: 2px;
 }
-
 .details-ordersummary-content {
   display:flex;
   flex-direction: column;
@@ -76,9 +75,6 @@ width: 6rem;
 }
 .s-a-h {
   margin-block: 1rem;
-}
-.total-container .shipping-container {
- border:1px solid red;
 }
 
 

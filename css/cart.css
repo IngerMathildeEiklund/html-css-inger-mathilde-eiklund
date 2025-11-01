@@ -63,7 +63,7 @@
     display:inline-block;
 }
 .inputfield-quantity {
-     width: 2rem;   
+    width: 2rem;   
     font-size: 1rem;    
     }
 
@@ -79,11 +79,6 @@
     justify-self: center;
     margin-block: 1rem;
 }
-
-
-
-
-
 
 @media (min-width: 768px)  {
 
@@ -127,9 +122,6 @@
     }
     .vertical-hr{
         margin-inline: 2rem;
-    }
-    .vertical-hr-container {
-        border:1px solid red;
     }
     .card-clamp {
         max-width: 52rem;
