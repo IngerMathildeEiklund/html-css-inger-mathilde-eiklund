@@ -62,9 +62,10 @@
 .hero-text {
   position: absolute;
   z-index:2;
-  color: white;
-  align-self: center;
-  margin-left: 2rem;
+  top:20%;
+  bottom:20%;
+  left:5%;
+  color:white;
 }
 .hero-text span {
   display:block;
