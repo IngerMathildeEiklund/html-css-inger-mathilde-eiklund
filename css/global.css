@@ -19,9 +19,20 @@
 }
 .main {
   padding-inline: 1rem;
-  padding-block:1rem;
+  padding-top:5rem;
+  padding-bottom: 15rem;
   max-width: 1500px;
   margin:0 auto;
+  
+}
+.sr-only {
+  position:absolute;
+  width: 1px;
+  height:1px;
+  padding: 0;
+  margin:-1px;
+  overflow:hidden;
+
 }
 h1 {
   font-family: "Open sans",'Helvetica';
@@ -29,19 +40,19 @@ h1 {
   font-size: 1.5rem;
 }
 h2 {
-  font-family: "Open sans";
+  font-family: "Open sans",'Helvetica';
  font-size: 1.125rem;
  color: var(--main-text-color);
 
 }
 h3 {
-  font-family: "Open sans";
+  font-family: "Open sans",'Helvetica';
  font-size: 1.125rem;
  color: var(--main-text-color);
 
 }
 p {
-  font-family: "Open sans";
+  font-family: "Open sans",'Helvetica';;
   font-size: 1rem;
   color: var(--main-text-color);
 }
@@ -56,7 +67,7 @@ li {
   list-style-type: none;
 }
 .button {
-    font-family: 'Roboto';
+    font-family: 'Roboto','Arial';
     font-size: 1.2rem;
     padding-block: 1rem;
     padding-inline: 1rem;
@@ -93,7 +104,7 @@ input:focus {
 }
 
 .definition-list {
-  font-family: 'Open sans';
+  font-family: 'Open sans','Helvetica';
 
 }
 .order-total-dl  {
@@ -126,7 +137,7 @@ input:focus {
   height:1rem;
 }
 .breadcrumbs a{
-  font-family: 'Open sans';
+  font-family: 'Open sans', 'helvetica';
   color: var(--main-text-color);
 }
 .breadcrumbs ol {

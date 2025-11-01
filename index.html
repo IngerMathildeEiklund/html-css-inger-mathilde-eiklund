@@ -50,6 +50,21 @@
     />
     <link rel="manifest" href="./assets/icons/site.webmanifest" />
     <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
+
+    <meta property="og:title" content="Rainydays | Pushing the comfort zone" />
+    <meta
+      property="og:description"
+      content="Our rain jackets are built to last, crafted from durable, weather-resistant materials that stand up to daily wear and the toughest outdoor conditions."
+    />
+    <meta
+      property="og:image"
+      content="https://ingermathildeeiklund.github.io/html-css-inger-mathilde-eiklund/images/andy-kogl-b9DoidQoWiY-unsplash-desktop.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://ingermathildeeiklund.github.io/html-css-inger-mathilde-eiklund/"
+    />
+    <meta property="og:type" content="website" />
   </head>
   <body>
     <header>
@@ -80,7 +95,7 @@
         ></a>
       </div>
 
-      <!-- mobile -->
+      <!-- mobile header -->
       <div class="search-bar-div" role="search">
         <input
           class="searchbar"
@@ -99,12 +114,15 @@
     </header>
     <main>
       <section class="hero-section">
-        <img
-          class="hero-image"
-          src="images/tristan-pineda-iqRPZhNsTXE-unsplash-desktop.jpg"
-          fetchpriority="high"
-          alt="Photo of a man in rainjacket in a forest"
-        />
+        <div class="hero-image-container">
+          <div class="image-overlay"></div>
+          <img
+            class="hero-image"
+            src="images/tristan-pineda-iqRPZhNsTXE-unsplash-desktop.jpg"
+            fetchpriority="high"
+            alt="Photo of a man in rainjacket in a forest"
+          />
+        </div>
         <h1 class="hero-text">
           YOUR <span>JOURNEY</span> <span>BEGINS </span> <span>TODAY </span>
         </h1>
