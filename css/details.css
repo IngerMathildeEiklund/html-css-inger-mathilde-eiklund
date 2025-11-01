@@ -3,15 +3,7 @@
   outline: 3px solid var(--inputfield-focus-color);
   outline-offset: 2px;
 }
-.sr-only {
-  position:absolute;
-  width: 1px;
-  height:1px;
-  padding: 0;
-  margin:-1px;
-  overflow:hidden;
 
-}
 .details-ordersummary-content {
   display:flex;
   flex-direction: column;

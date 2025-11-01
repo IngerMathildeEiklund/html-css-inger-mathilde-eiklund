@@ -40,6 +40,11 @@
   height: auto;
   display: block;
 }
+.hero-image-container {
+  position: relative;
+  width:100%;
+  overflow:hidden;
+}
 .image-overlay {
   position:absolute;
   inset:0;
