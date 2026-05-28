@@ -22,7 +22,7 @@
   padding-top:5rem;
   padding-bottom: 15rem;
   max-width: 1500px;
-  margin:0 auto;
+  margin: 0 auto;
   
 }
 .sr-only {
@@ -68,19 +68,23 @@ li {
 }
 .button {
     font-family: 'Roboto','Arial';
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-block: 1rem;
     padding-inline: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     border: none;
     color: var(--button-text-color);
     text-align: center;
 }
-.btn-orange {
-background-color: var(--secondary-color);
+.btn-blue2 {
+  margin-top: 1rem;
+background-color: #1364ce;
+color: white;
+transition: 0.1s ease-in-out;
 }
-.btn-orange:hover {
-background-color: var(--on-hover-secondary-button-color);
+.btn-blue2:hover {
+  background-color: #0e51a8;
+
 }
 .btn-green {
 background-color: var(--tertiary-color);
@@ -164,7 +168,7 @@ h3 {
 
 }
 p, a {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 .order-label {
   font-size: 1.25rem;
@@ -173,7 +177,7 @@ p, a {
   font-size: 1.5rem;
 }
 .button{
-    font-size: 1.125rem;
+       font-size: 1rem;
 }
 
 
@@ -191,10 +195,10 @@ h3 {
 
 }
 p, a {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .button {
- font-size: 1.25rem;
+     font-size: 1rem;
 }
 
 
