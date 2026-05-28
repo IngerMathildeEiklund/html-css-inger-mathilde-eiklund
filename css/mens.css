@@ -15,9 +15,8 @@
 font-size: 1rem;
 padding: 1rem 0.5rem 1rem 0.5rem;
 border-radius: 0.2rem;
-background-color: var(--secondary-color);
+border-color: rgb(209, 209, 209);
 margin-bottom:2rem;
-color: var(--button-text-color);
 margin-inline: 1rem;
 }
 
@@ -49,7 +48,7 @@ font-size: 1.125rem;
 @media (min-width: 1025px) {
 
  .grid {
-    gap:10rem;
+    gap:5rem;
   }
   .shop-by-products-form {
 font-size: 1.25rem;
