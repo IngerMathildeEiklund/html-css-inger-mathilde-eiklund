@@ -20,6 +20,6 @@ Lacking some accessibility.
 
 <hr> 
 
-####Author 🐱🪼
+#### Author 🐱🪼
 
 Inger Mathilde Eiklund
