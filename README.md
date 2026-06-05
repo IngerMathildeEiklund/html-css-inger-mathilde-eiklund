@@ -2,7 +2,7 @@
 
 [Live demo](https://ingermathildeeiklund.github.io/html-css-inger-mathilde-eiklund/)
 
-### What is it? 🤔
+### What is this? 🤔
 
 This is my first project where I transformed my Figma design into an ecommerce site using only HTML and CSS.
 
